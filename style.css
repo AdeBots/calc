@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.calculator {
+    width: 200px;
+    height: 300px;
+    border: solid 1px black;
+}
+
+div.screen {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    border: solid 1px black;
+}
+
+div button {
+    width: 50px;
+    height: 50px;
+    flex-grow: 1;
+}
+
+button#equal {
+    width: 100px;
+}
